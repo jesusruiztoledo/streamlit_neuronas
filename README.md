@@ -38,19 +38,19 @@ La aplicación está organizada en tres pestañas que representan diferentes con
    ```bash
    pip install -r requirements.txt
    ```
-4. Asegúrate de que la imagen `neurona.jpg` se encuentre en el directorio `images/`.
+4. Asegúrate de que la imagen `neurona.jpg` esté en el mismo directorio que `streamlit_app.py`.
 
 ## Ejecución
 
 1. Ejecuta la aplicación con el siguiente comando:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 2. Abre el enlace generado en tu navegador para interactuar con la aplicación.
 
 ## Personalización
 
-Puedes personalizar los valores predeterminados y los rangos de los sliders o inputs editando los parámetros en el archivo `app.py`. Por ejemplo:
+Puedes personalizar los valores predeterminados y los rangos de los sliders o inputs editando los parámetros en el archivo `streamlit_app.py`. Por ejemplo:
 
 - Cambiar el rango de un slider:
   ```python
